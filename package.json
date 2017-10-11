@@ -1,0 +1,31 @@
+{
+  "name": "medicare",
+  "version": "1.0.0",
+  "description": "Medicare works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeeeeeeeck/medicare.git"
+  },
+  "keywords": [
+    "Medicare"
+  ],
+  "author": "beckl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeeeeeeeck/medicare/issues"
+  },
+  "homepage": "https://github.com/beeeeeeeeck/medicare#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.16.4",
+    "node-horseman": "^3.1.1",
+    "node-promise": "^0.5.12",
+    "walk": "^2.3.9",
+    "ya-csv": "^0.9.4"
+  }
+}
