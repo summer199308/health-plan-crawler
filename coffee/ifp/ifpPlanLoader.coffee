@@ -33,15 +33,12 @@ queingStream
 , ->
 	console.log "Total ZipCode - #{zipcodes.length}"
 	async.eachSeries zipcodes, (zip, next) ->
-		console.log "Start Scrape IFP Data."
-		console.log "Zipcode:", zip.zip
+		console.log "Start Scrape IFP Data - #{zip.zip}"
 		dataScraper zip, (err, countyNames) ->
 			console.log err if err?
 			return next() if countyNames?.length is 0
 			async.eachSeries countyNames, (county, nextCounty) ->
-				console.log "Start Scrape IFP Data for the specific county"
-				console.log "Zipcode:", zip.zip
-				console.log "County Name:", county.name
+				console.log "Start Scrape IFP Data for the specific county - #{zip.zip}, #{county.name}"
 				zip.county = county
 				dataScraper zip, (err) ->
 					console.log err if err?
