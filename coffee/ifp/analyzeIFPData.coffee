@@ -197,10 +197,10 @@ async.eachSeries [1..19], (region,nextRegion) ->
 						planInfo.laboratoryTests
 						planInfo.xraysandDiagnosticImaging
 						planInfo.imagingCTPETScansOrMRIs
-						planInfo.tierMostGenericDrugs
-						planInfo.tierPreferredBrandDrugs
-						planInfo.tierNonPreferredBrandDrugs
-						planInfo.tierSpecialtyDrugs
+						planInfo.tier1MostGenericDrugs
+						planInfo.tier2PreferredBrandDrugs
+						planInfo.tier3NonPreferredBrandDrugs
+						planInfo.tier4SpecialtyDrugs
 						planInfo.outpatientFacilityFee
 						planInfo.outpatientSurgeryPhysicianSurgicalServices
 						planInfo.outpatientServicesOfficeVisits
