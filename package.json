@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/beeeeeeeeck/medicare#readme",
   "dependencies": {
-    "async": "^2.6.3",
+    "async": "^2.6.4",
     "big.js": "^5.2.2",
     "cheerio": "^0.22.0",
     "fast-json-stable-stringify": "^2.0.0",
